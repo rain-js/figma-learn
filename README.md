@@ -48,7 +48,11 @@ CSS flexbox
 - 组件Variants：可以给一个组件，定义多个不同状态下的样式
 （Design - Properties - Variant）
 
+## figma 插件开发
 
+- 大多数 Plugin API 都可以通过 **figma** 这个**全局对象**使用。
+
+- 某些 Plugin API 只在特定文件类型才生效。如 **createShapeWithText** 只在 FigJam 文件中才可用。
 
 
 
